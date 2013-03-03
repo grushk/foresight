@@ -1,0 +1,396 @@
+/* ************************ Universal Style ************************ */
+html {
+    background-image: -ms-radial-gradient(left center, ellipse farthest-corner, #FFFFFF 0%, #BCC3D4 100%);
+    background-image: -moz-radial-gradient(left center, ellipse farthest-corner, #FFFFFF 0%, #BCC3D4 100%);
+    background-image: -o-radial-gradient(left center, ellipse farthest-corner, #FFFFFF 0%, #BCC3D4 100%);
+    background-image: -webkit-gradient(radial, left center, 0, left center, 861, color-stop(0, #FFFFFF), color-stop(1, #BCC3D4));
+    background-image: -webkit-radial-gradient(left center, ellipse farthest-corner, #FFFFFF 0%, #BCC3D4 100%);
+    background-image: radial-gradient(ellipse farthest-corner at left center, #FFFFFF 0%, #BCC3D4 100%);
+}
+body {
+    height: 100%
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+html * {
+    margin: 0px; padding: 0px
+}
+p {
+    margin-bottom: 0.5em;
+}
+li {
+    list-style-position: inside;
+}
+#container {
+    padding: 0px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 960px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+    position: relative;
+}
+video {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ************************ Header Style ************************ */
+#header {
+    display:block;
+    width: 960px;
+    height: 105px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    position: relative;
+}
+#logo {
+    height: 105px;
+    position: relative;
+    z-index: 1;
+}
+#social {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    width: 96px;
+    height: 22px;
+    padding-left: auto;
+    padding-right: auto;
+}
+.addthis_toolbox {
+    
+}
+.addthis_toolbox a {
+    float: right;
+}
+#chat {
+    position: absolute;
+    top: 20px;
+    left: 695px;
+    height: 34px;
+    
+}
+
+
+/* *************************** Main Style *************************** */
+#main {
+    width: 960px;
+    background: #ede6dc;
+    color: #000000;
+}
+#mainTable {
+    height: 100%;
+    width: 960px;
+    background: #ede6dc;
+    float: left;
+    font-size: 11pt;
+}
+#firstRow {
+    display: table-row;
+    width: 920px;
+    height: 380px;
+    padding: 0px 20px 0px 20px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    //background: #00ff00;
+}
+#middleRow {
+    display: table-row;
+    width: 920px;
+    height: 215px;
+    padding: 0px 20px 0px 20px;
+    float: left;
+    margin-bottom: 20px;
+    //background: #ff0000;
+}
+#secondRow {
+    display: table-row;
+    width: 920px;
+    height: 215px;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 20px;
+    float: left;
+    //background: #0000ff;
+}
+#firstRow div, #secondRow div, #middleRow div {
+    border-radius: 10px 10px 10px 10px;
+    border-color: #63A3CF;
+    float: left;
+    position: relative;
+}
+#firstRow div p, #secondRow div p, #middleRow div p {
+}
+#welcomeText {
+    position: relative;
+    top: 0px;
+    padding: 10px;
+    width: 220px;
+    height: 190px;
+    background-color: #63A3CF;
+    margin-bottom: 20px;
+}
+#slideshowBox {
+    height: 150px;
+    background-color: #63A3CF;
+}
+#slogan {
+    text-align: center;
+    font-size: 14pt;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 220px;
+    height: 70px;
+    background: #00ffff;
+    border-radius: 0px 0px 10px 10px;
+    float: none;
+//}
+//#slogan p {
+    display: inline-block;
+    vertical-align: middle;
+}
+#slideshow {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 240px;
+    height: 110px;
+    padding: 0px;
+    border-radius: 0px 0px 10px 10px!important;
+    font-size: 12pt;
+    float: none;
+    display: table;
+}
+#slideshow div {
+    position: absolute;
+    width: 240px;
+    height: 110px;
+    //background: #0000ff;
+}
+#slideshow span {
+    position: relative;
+    //margin: 10px;
+    width: 110px;
+    height: 90px;
+    left: 110px;
+    text-align: center;
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+    border-radius: 0px 0px 10px 0px;
+}
+#column-content #slideshow p {
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+#slideshow img {
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    left: 0px;//-235px;
+    top: 0px;//-215px;
+    border-radius: 0px 0px 0px 10px;
+    display: table-cell;
+}
+.tallRectangle p {
+
+}
+.tallRectangle div {
+    float: none;
+}
+#t22video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    position: relative;
+}
+.boxTitle {
+    position: absolute;
+    background: #007DB8;
+    top: 0px;
+    left: 0px;
+    width: 195px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.topBoxTitle {
+    position: absolute;
+    background: #007DB8;
+    top: 0px;
+    left: 0px;
+    width: 220px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.boxTitleImg {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 10px;
+    top: 2px;
+    z-index: 1000;
+}
+.boxText {
+    position: relative;
+    top: 30px;
+    padding-top: 10px;
+    height: 165px;
+}
+.topBoxText {
+    position: relative;
+    top: 30px;
+    padding-top: 10px;
+    height: 165px;
+}
+.pageTitle {
+    position: relative;
+    background: #007DB8;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 30px;
+    //display: inline-block;
+    //vertical-align: middle;
+}
+
+/* ************************ Navigation Bar Style ************************ */
+#siteNavBar {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    width: 960px;
+    height: 30px;
+}
+#siteNavBar li {
+    list-style-type: none;
+    float: left;
+}
+#siteNavBar a:link, #siteNavBar a:visited {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #007DB8;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 11pt;
+    height: 30px;
+    width: 160px;
+    line-height: 200%;
+    display: block;
+    background-image: -ms-linear-gradient(top, #00AEFF 0%, #007DB8 100%);
+    background-image: -moz-linear-gradient(top, #00AEFF 0%, #007DB8 100%);
+    background-image: -o-linear-gradient(top, #00AEFF 0%, #007DB8 100%); 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #00AEFF), color-stop(1, #007DB8));
+    background-image: -webkit-linear-gradient(top, #00AEFF 0%, #007DB8 100%);
+    background-image: linear-gradient(to bottom, #00AEFF 0%, #007DB8 100%);
+}
+#siteNavBar a:hover, #siteNavBar a:focus {
+    color: #ffffff;
+    background: #00B34A;
+    background-image: -ms-linear-gradient(top, #5331FF 0%, #3C23B8 100%);
+    background-image: -moz-linear-gradient(top, #5331FF 0%, #3C23B8 100%);
+    background-image: -o-linear-gradient(top, #5331FF 0%, #3C23B8 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5331FF), color-stop(1, #3C23B8));
+    background-image: -webkit-linear-gradient(top, #5331FF 0%, #3C23B8 100%);
+    background-image: linear-gradient(to bottom, #5331FF 0%, #3C23B8 100%);
+
+}
+#siteNavBar a:active {
+    background: #3C23B8;
+    color: #ffffff;
+}
+/* Second Level Nav Bar */
+#siteNavBar li ul {
+    display: none; 
+    width: 10em; /* Width to help Opera out */
+    background-color: #007DB8;
+}
+#siteNavBar li:hover ul {
+    display: inline;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+}
+#siteNavBar li:hover li {
+    //float: none; 
+}
+#siteNavBar li:hover li a {       //Dropdown background
+    background-color: #007DB8;
+
+}
+#siteNavBar li li a:hover {
+    background-color: #3C23B8;   //Dropdown highlight
+}
+
+
+/* ************************ Footer Style ************************ */
+#footer {
+    bottom: 0px;
+    height: 100%
+    width: 900px;
+    font-size: .9em;
+    text-align: center;
+    background: #ede6dc;
+}
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+#footer li {
+    display: inline;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+#footer a {
+    padding: 0px;
+}
+#footer p {
+    text-align: center;
+    margin-top: 2px;
+}
+
+
+/* ************************ Other Style ************************ */
+p .linebreak {
+    margin-bottom: 24px!important;
+}
+.bold {
+    font-weight: bold;
+}
+.underlined {
+    text-decoration: underline;
+}
+.clear { 
+    clear: both;
+}
+.noDecoration {
+    text-decoration: none;
+    color: #000000;
+}
+.noDecoration:hover {
+    text-decoration: underline;
+}
+
+/* Old colors:
+metalic background: FFFFFF to BCC3D4
+dark green gradient: 00AB46 to 007932
+light green gradient: 00E05C to 00A644
+main background: ede6dc
+main content box background: b6aca0
+*/

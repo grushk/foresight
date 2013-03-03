@@ -1,0 +1,215 @@
+/* Side by Side Columns */
+#leftSide {
+    width: 580px;
+    //width: 50%;
+    background-color: #63A3CF;
+}
+#rightSide {
+    width: 279px;
+    //width: 25%;
+    background-color: #63A3CF;
+}
+
+
+/* Header, navbar, and text box */
+#HNTtop {
+    width: 880px;
+    min-height: 10px;
+    height:auto !important;
+}
+#HNTleft {
+    width: 270px;
+}
+#HNTright {
+    width: 570px;
+}
+
+
+/* Squares and Rectangles */
+#oneBox {
+    width: 900px;
+    min-height: 195px;
+    background-color: #63A3CF;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border-color: #63A3CF;
+}
+.square {
+    width: 195px;
+    height: 195px;
+    background-color: #63A3CF;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 12pt;
+}
+.rightSquare {
+    width: 195px;
+    height: 195px;
+    background-color: #63A3CF;
+    padding: 10px;
+    font-size: 12pt;
+}
+.rectangle {
+    width: 430px;
+    height: 195px;
+    background-color: #63A3CF;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 12pt;
+}
+.rightRectangle {
+    width: 430px;
+    height: 195px;
+    background-color: #63A3CF;
+    padding: 10px;
+    font-size: 12pt;
+}
+.tallRectangle {
+    width: 240px;
+    height: 380px;
+    margin-right: 20px;
+    font-size: 12pt;
+    position: relative;
+}
+.tallRightRectangle {
+    width: 640px;
+    height: 360px;
+    background-color: #63A3CF;
+    padding: 10px;
+    font-size: 12pt;
+}
+.rectangle img, .rightRectangle img {
+    max-height: 215px;
+    max-width: 430px;
+    
+}
+#oneBox h1 {
+    margin-bottom: 20px;
+}
+#oneBox li, #column600 li, #column300 li {
+    //list-style-type: none;
+}
+#oneRow {
+    display: table;
+    width: 920px;
+    //min-height: 195px;
+    //padding: 0px 20px 40px 20px;
+    //float: left;
+    //background: #0000ff;
+    margin: 20px ;
+    
+}
+#column600 {
+    width: 580px;
+    //height: 450px;
+    //overflow: hidden;
+    background-color: #63A3CF;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #63A3CF;
+    //float: left;
+    display: table-cell;
+    position: relative;
+}
+#column0 {
+    display: table-cell;
+    width: 20px;
+}
+#column300 {
+    width: 280px;
+    //height: 100%;
+    background-color: #63A3CF;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #63A3CF;
+    //float: left;
+    display: table-cell;
+}
+.leftSide {
+    margin: 20px;
+}
+.rightSide {
+    margin: 20px 20px 20px 0px;
+}
+#headerRow {
+    width: 900px;
+    //min-height: 195px;
+    background-color: #63A3CF;
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    border-color: #63A3CF;
+}
+#bioBox {
+    width: 580px;
+    //height: 450px;
+    //overflow: hidden;
+    background-color: #63A3CF;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #63A3CF;
+    float: left;
+    display: table-cell;
+}
+#staffListBox {
+    width: 280px;
+    //height: 100%;
+    background-color: #63A3CF;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #63A3CF;
+    float: left;
+    display: table-cell;
+}
+.categoryList {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.categoryList li {
+    //list-style-position:inside; 
+    //list-style-image:url('/img/rightArrow.png');
+    background-image: url("/img/rightArrow.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    padding-left: 22px;
+}
+.categoryList li a:link, .categoryList li a:visited {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.categoryList li a:hover, .categoryList li a:focus {
+
+}
+.categoryList li a:active {
+
+}
+.staffList li {
+    list-style-type: none;
+    background-image: none;
+    margin-left: 3px;
+}
+.staffList li a:link, .staffList li a:visited {
+    font-weight: normal;
+    color: #000000;
+
+}
+.staffList li a:hover, .staffList li a:focus {
+    
+}
+.staffList li a:active {
+    
+}
+
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+}
+.downArrow {
+    background-image: url("/img/downArrow.png");
+}
