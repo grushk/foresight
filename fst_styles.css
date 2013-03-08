@@ -386,6 +386,9 @@ p .linebreak {
 .noDecoration:hover {
     text-decoration: underline;
 }
+.linkHeader {
+    font-size: 1.2em;
+}
 
 /* Old colors:
 metalic background: FFFFFF to BCC3D4

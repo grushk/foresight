@@ -100,6 +100,14 @@
     margin: 20px ;
     
 }
+.fullRow {
+    width: 900px;
+    background-color: #63A3CF;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border-color: #63A3CF;
+}
 #column600 {
     width: 580px;
     //height: 450px;
